@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> kedvenc Youtube video</title>
+</head>
+<body>
+    <div id='filmlinkek'>
+
+        <a href='javascript:' onClick='filmlejatszo(1)'>Mortal Kombat 1 </a>
+        <a href='javascript:' onClick='filmlejatszo(2)'>Tisza-tó és Abádszalók       </a>
+        <a href='javascript:' onClick='filmlejatszo(3)'>Fertő-tó, Fertőrákos        </a>
+    
+    </div>
+    
+    
+    <iframe id='film' width=560 height=315 scrolling='no' frameborder=1></iframe>
+    
+    
+    <script>
+    
+      function filmlejatszo(x)
+      {
+        if(x==1)  film.src = "https://youtu.be/XL12cQZmuQ8?si=0I5vfuo9E7C0ustc"
+        if(x==2)  film.src="https://www.youtube.com/embed/Z_JIbN22ckE?autoplay=1&rel=0"
+        if(x==3 )  film.src="https://www.youtube.com/embed/OkUE6YxaNPo?autoplay=1&rel=0 " 
+      }
+    
+      
+    
+    </script>
+    
+    
+    
+</body>
+</html>
