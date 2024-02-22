@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
