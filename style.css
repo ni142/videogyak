@@ -12,3 +12,8 @@ iframe{
     margin-right: auto;
     display: block;
 }
+
+#filmlinkek {
+    display: flex;
+    justify-content: center;
+}
